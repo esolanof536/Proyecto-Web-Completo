@@ -1,0 +1,171 @@
+@charset "utf-8";
+/* CSS Document */
+
+.restaurantBanner {
+	background-color: rgba(120, 0, 40, 1.00);
+	height: 909px;
+}
+
+.bannerButton {
+	height: 120px;
+	width: 120px;
+	background-color: rgba(243,243,243,1.00);
+	margin-left: 2%;
+	margin-top: 15%;
+}
+
+.optionButtons {
+	height: 110px;
+	width: 110px;
+	margin-left: 4%;
+	margin-top: 1%;
+}
+
+.rightTable {
+	margin-left: 30%;
+}
+
+.tableRowRight {
+	margin-left: 2%;
+}
+
+.bar {
+	height: 180px;
+	width: 180px;
+	border-radius: 10%;
+	background-color: #8D8D8D;
+	margin-top: 3%;
+	margin-left: 35%;
+}
+
+.barText {
+	height: 100px;
+	width: 350px;
+	border: 3px solid rgb(192, 0, 64);
+	margin-top: 12%;
+	border-radius: 2%;
+}
+
+.middleUpRow {
+	margin-left: 25%;
+	margin-top: 5%;
+}
+
+.middleDownRow {
+	margin-left: 25%;
+	margin-top: 25%;
+}
+
+#estadoLabel {
+	font-weight: bold;
+}
+
+#horiBar {
+	background-color: #8D8D8D;
+	border-radius: 0px 15px 15px 15px;
+	border: 2px solid #8D8D8D;
+	height: 30px;
+	width: 150px;
+
+}
+
+#vertBar {
+	background-color: #8D8D8D;
+	border-radius: 15px 15px 0px 0px;;
+	border: 2px solid #8D8D8D;
+	height: 120px;
+	width: 30px;
+	
+}
+
+
+
+.bar2 {
+	margin-top: -95%;
+	margin-left: 260%;
+}
+
+#vertBar2 {
+	background-color: #8D8D8D;
+	border-radius: 0px 0px 15px 15px;;
+	border: 2px solid #8D8D8D;
+	height: 120px;
+	width: 30px;
+    margin-left: 120px
+	
+}
+
+#horiBar2 {
+	background-color: #8D8D8D;
+	border-radius: 15px 15px 0px 15px;
+	border: 2px solid #8D8D8D;
+	height: 30px;
+	width: 150px;
+	
+}
+
+.tableLeftIcon {
+	margin-left: 20%
+}
+
+.tableRightIcon {
+	margin-left: 20%;
+	margin-top: -25%;
+}
+
+.tableRightIcon2 {
+	margin-left: 60%;
+}
+
+.leftMiddle{
+	margin-top: 20%;
+}
+
+.middle {
+	margin-top: 33%;
+}
+
+.rightMiddle {
+	margin-top: 20%;
+}
+
+.checkIcon{
+    font-size: 35px;
+	margin-top: 10%;
+	margin-left: 10%;
+}
+
+#barContainer2{
+    margin-left: 5%;
+    margin-top: 12%;
+}
+
+#barContainer{
+    margin-top: -30%;
+    margin-left: 35%;
+}
+
+.barraLabel{
+	margin-left: 5%;
+}
+
+#barra1Container{
+	margin-top: 10%;
+}
+
+#mesasLeft{
+	margin-top: -4.5%;
+}
+
+#middelTables{
+	margin-top: -10%;
+
+}
+
+.middleTable{
+	margin-left: 13%;
+}
+
+#mesasRight{
+	margin-top: -4.5%;
+}

@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#bannerRepVino {
+	background-color: rgba(120,0,40,1.00);
+	height: 905px;
+	text-align: center;
+	color: white;
+}
+
+#imgListRepVino {
+	height: 160px;
+	width: 160px;
+	margin-top: 8%;
+
+}
+
+#circle-background {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 35%;
+	background-color: white;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}
+
+#reporteSistema {
+	resize: none;
+	margin-left: 6%;
+	margin-top: 3%;
+}
+
+#buttonReport {
+	margin-left: 5%;
+}
+
+#leftResRep {
+	font-size: 45px;
+	
+}
+
+#rightResRep {
+	font-size: 45px;
+	margin-left: 2%;
+}
+
+#closeResRep {
+	font-size: 45px;
+	margin-left: 2%;
+}

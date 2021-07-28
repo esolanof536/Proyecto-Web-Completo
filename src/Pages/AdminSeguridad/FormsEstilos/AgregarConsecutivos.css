@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+#conseContainer {
+	border-radius: 7px;
+	border: solid;
+	border-color: rgb(192, 0, 64); 
+    margin-top: 5%;
+  	height: 500px;
+  	width: 50%;
+}
+
+#empImg {
+	height: 200px; 
+	width: 200px;
+}
+
+#empFile {
+	display: none;
+}
+
+
+#infoEmp {
+	text-align: center;
+}
+
+#empLogo {
+	width: 200px; 
+	height: 200px;
+	
+}
+
+.textArea {
+	resize: none;
+}
+
+#descConse{
+    margin-left: -0%;
+}
+
+#prefLabel {
+	margin-left: -100%;
+}

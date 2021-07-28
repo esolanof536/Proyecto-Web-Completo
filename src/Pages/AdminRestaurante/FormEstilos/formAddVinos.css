@@ -1,0 +1,45 @@
+.bordeGeneralVino{
+	border-style: solid;
+	border-width: 3px;
+	border-color: rgb(192, 0, 64);
+	border-radius: 5px;
+	height: 740px;
+	width: 60%;
+	margin-top: 3%;
+}
+
+
+.textArea {
+	resize: none;
+}
+
+
+#imgVino {
+	height: 150px;
+	width: 153px;
+}
+
+#fileVino {
+	display: none;
+}
+
+#addVinoLogo{
+	height: 200px;
+	width: 200px;
+}
+
+#descAddVinoInput{
+	margin-left: 0%;
+}
+
+#fileVinos{
+	display: none;
+}
+
+#addImgVinos{
+	border: 1px solid black;
+}
+
+#addVinoInfo{
+	text-align: center;
+}

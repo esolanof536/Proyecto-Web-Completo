@@ -1,0 +1,23 @@
+
+#bannerBuffet {
+	background-color: rgba(120,0,40,1.00);
+	height: 902px;
+	text-align: center;
+	color: white;
+}
+
+#imgListBuffet {
+	height: 145px;
+	width: 145px;
+	margin-top: 8%;
+}
+
+#circle-background {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 35%;
+	background-color: white;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}

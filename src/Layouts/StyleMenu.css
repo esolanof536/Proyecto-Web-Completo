@@ -1,0 +1,37 @@
+.navbar, .navbar-expand-lg, .navbar-light, .bg-light {
+    font-size:larger;
+    }
+    
+    .navbar-brand {
+    font-size:27px;
+    margin-bottom:5px;
+    }
+    
+    .spanheader{
+    background-color: rgb(192, 0, 64);
+    width: 100%;
+    height: 3px
+    }
+    
+    .titleHead {
+    color: rgb(80,87,89);
+    }
+    
+    
+    #btnLogOut {
+    font-weight:bold;
+    }
+a{
+    text-decoration: none !important;
+}
+
+#logoutButton{
+    font-weight: bold;
+}
+header{
+    position: relative;
+}
+.contenido{
+    position: sticky;
+    background-color: white !important;
+  }

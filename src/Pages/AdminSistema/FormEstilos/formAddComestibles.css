@@ -1,0 +1,55 @@
+#comesContainer {
+	border-radius: 7px;
+	border: solid;
+	border-color: rgb(192, 0, 64); 
+    margin-top: 5%;
+  	height: 600px;
+  	width: 60%;
+}
+
+#empImg {
+	height: 200px; 
+	width: 200px;
+}
+
+#empFile {
+	display: none;
+}
+
+#restSelect {
+	width: 138px; 
+	height: 30px;
+}
+
+#nacionSelect {
+	width: 138px; 
+	height: 30px;
+}
+
+#infoEmp {
+	text-align: center;
+}
+
+#empLogo {
+	width: 300px; 
+	height: 300px;
+	margin-left: -10%
+}
+
+#puestoSelect {
+	width: 138px; 
+	height: 30px
+}
+
+#pedidoTA {
+	width: 218%;
+	resize: none;
+}
+
+.icons {
+    color: black;
+}
+
+.icons:hover {
+    color: rgb(114, 19, 19);
+}

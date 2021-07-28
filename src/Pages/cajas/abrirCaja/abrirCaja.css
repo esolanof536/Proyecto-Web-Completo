@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+#AptCajaContainer {
+  border-radius: 7px;
+  border: solid;
+  border-color: rgb(192, 0, 64);
+  margin-top: 1%;
+  height: 250px;
+  width: 45%;
+}
+
+#aptCajaLogo {
+  height: 150px;
+  width: 150px;
+}

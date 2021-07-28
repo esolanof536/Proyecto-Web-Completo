@@ -1,0 +1,52 @@
+#empContainer2 {
+	border-radius: 7px;
+	border: solid;
+	border-color: rgb(192, 0, 64); 
+    margin-top: 3%;
+  	height: 710px;
+  	width: 60%;
+}
+
+
+#empImg {
+	height: 200px; 
+	width: 205px;
+}
+
+
+#empFile {
+	display: none;
+}
+
+
+#restSelectEmp {
+	width: 138px; 
+	height: 30px;
+}
+
+
+#nacionSelectEmp {
+	width: 138px; 
+	height: 30px;
+}
+
+
+
+.far, .fas {
+	color: black;
+}
+
+
+#infoEmp {
+	text-align: center;
+}
+
+#empLogo {
+	width: 250px; 
+	height: 250px
+}
+
+#puestoSelect {
+	width: 138px; 
+	height: 30px
+}

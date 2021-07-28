@@ -1,0 +1,64 @@
+#marcaContainer {
+    border-radius: 7px;
+      border: solid;
+      border-color: rgb(192, 0, 64); 
+      margin-top: 2%;
+      height: 720px;
+      width: 60%;
+}
+
+#logoMarca {
+    width: 250px; 
+    height: 250px; 
+    margin-top: 20%; 
+    margin-left: 10%
+}
+
+#infoMarca{
+    text-align: center;
+}
+
+
+#descMarca {
+    resize: none;
+}
+
+#imgMarca {
+    height: 155px;
+}
+
+#selecMarca {
+    display: none;
+}
+
+#infoProv {
+    text-align: center;
+}
+
+#detalleProv {
+    resize: none;
+}
+
+#imgProv{
+    height: 155px;
+}
+
+#selecProve {
+    display: none;
+}
+
+#fileMarca{
+    display: none;
+}
+
+#addImgMarca{
+    border: 1px solid black;
+}
+
+#fileProvee{
+    display: none;
+}
+
+#addImgProvee{
+    border: 1px solid black;
+}

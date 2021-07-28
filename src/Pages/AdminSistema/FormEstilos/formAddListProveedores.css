@@ -1,0 +1,39 @@
+
+#proveContainer{
+	border-radius: 7px;
+  	border: solid;
+   	border-color: rgb(192, 0, 64); 
+  	margin-top: 1%;
+  	height: 950px;
+  	width: 65%;
+	  margin-top: 3%;
+}
+
+#provInfo {
+	text-align: center;
+}
+
+#iconProves {
+	height: 150px; width: 160px; margin-top: 95px; float: left
+}
+
+#proveImg {
+	height: 150px;
+	width: 176px;
+}
+
+#fileProve {
+	display: none;
+}
+
+#rowthree {
+	margin-top: 10%
+}
+
+#TextAreaProve {
+	resize: none;
+}
+
+#TextAreaProve2 {
+	resize: none;
+}

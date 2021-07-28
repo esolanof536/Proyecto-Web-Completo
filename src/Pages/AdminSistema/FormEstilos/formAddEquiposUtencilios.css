@@ -1,0 +1,24 @@
+#equiUtenContainer {
+	border-radius: 7px;
+  	border: solid;
+  	border-color: rgb(192, 0, 64); 
+  	margin-top: 3%;
+  	height: 700px;
+  	width: 40%;
+}
+
+#iconEquiUten {
+	height: 150px; 
+	width: 160px; 
+	margin-top: 95px; 
+	float: left;
+}
+
+
+#equiUtenInfo {
+	text-align: center;
+}
+
+#TextADescripcion {
+	resize: none;
+}

@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+#bannerUM {
+	background-color: rgba(120,0,40,1.00);
+	height: 902px;
+	text-align: center;
+	color: white;
+}
+
+#imgList {
+	height: 155px;
+	width: 155px;
+	margin-top: 12%;
+	margin-left: -1%;
+	
+	
+}
+
+#circle-background {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 35%;
+	background-color: white;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}
+
+#radioBlock {
+	margin-left: -80%;
+}
+
+#reserLabel {
+	margin-top: 5%;
+}
+
+.textArea {
+	resize: none;
+	margin-left: -20%;
+}
+
+#simbolInput {
+	margin-left: 40%
+}
+
+#detailLabel {
+	margin-left: 55%;	
+}
+
+.textArea {
+	resize: none;
+}
+
+#excUM {
+	margin-left: 20%;
+}
+
+#escalaUMInput {
+	margin-left: 20%;
+}

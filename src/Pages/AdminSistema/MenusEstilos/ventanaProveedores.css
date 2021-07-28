@@ -1,0 +1,17 @@
+#provContainer {
+	border-radius: 7px;
+  	border: solid;
+   	border-color: rgb(192, 0, 64); 
+  	margin-top: 6%;
+  	height: 300px;
+  	width: 32%;
+}
+
+#provInfo {
+	text-align: center;
+}
+
+#ventProvLogo{
+	height: 150px;
+	width: 150px;
+}

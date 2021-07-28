@@ -1,0 +1,55 @@
+@charset "utf-8";
+
+.bordeGeneralBH {
+border-style: solid;
+border-width: 5px;
+border-color: rgb(192, 0, 64);
+border-radius: 5px;
+width: 55%;
+margin-top: 5%;
+height: 700px;
+}
+
+#iconBHel {
+
+height: 200px;
+width: 200px;
+margin-left: 10%;
+
+}
+
+#BHelInfo {
+
+text-align: center;
+
+}
+
+.textArea {
+resize: none;
+}
+#imgBHel {
+
+height: 150px;
+width: 200px;
+margin-left: -10%;
+
+}
+#fileHela {
+
+display: none;
+margin-left: -10%;
+
+}
+
+#findH {
+    margin-left: -10%;
+  }
+
+#descBebHelInput{
+  margin-left: 0%;
+}
+
+#ingreBebHelInput{
+  margin-left: 0%;
+
+}

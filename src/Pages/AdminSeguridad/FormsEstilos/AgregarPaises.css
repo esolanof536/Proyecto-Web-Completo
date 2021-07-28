@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+#empContainer {
+	border-radius: 7px;
+	border: solid;
+	border-color: rgb(192, 0, 64); 
+    margin-top: 2%;
+  	height: 670px;
+  	width: 40%;
+}
+
+#imgPais {
+	height: 200px; 
+	width: 200px;
+}
+
+#filePais {
+	display: none;
+    width: 0;
+}
+
+#infoEmp {
+	text-align: center;
+}
+
+#empLogo {
+	width: 250px; 
+	height: 250px
+}
+
+#puestoSelect {
+	width: 138px; 
+	height: 30px
+}
+
+#addImgPais {
+    border: 1px solid black;
+
+}
+
+#filePais{
+	display: none;
+}

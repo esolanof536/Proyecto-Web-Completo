@@ -1,0 +1,32 @@
+
+#addBuffetContainer {
+	border-radius: 7px;
+	border: solid;
+	border-color: rgb(192, 0, 64); 
+    margin-top: 3.5%;
+  	height: 780px;
+  	width: 60%;
+}
+
+#imgAddBuffet {
+	height: 150px;
+	width: 225px;
+}
+
+#addBuffetInfo {
+	text-align: center;
+}
+
+#iconAddBuffet {
+	height: 200px;
+	width: 200px;
+	margin-left: 3%;
+}
+
+#fileBuffet {
+	display: none;
+}
+
+.far, .fas {
+	color: black;
+}

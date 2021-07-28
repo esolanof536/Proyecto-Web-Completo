@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+
+#facCliContainer {
+	border-radius: 7px;
+  	border: solid;
+  	border-color: rgb(192, 0, 64); 
+  	margin-top: 0.5%;
+  	width: 70%;
+    padding-bottom: 1%;
+}
+
+.buffetLabel {
+	margin-left: 25%;
+	margin-top: -16%;
+}
+
+.bookingLabel {
+	margin-left: 10%;
+	margin-top: -8%;
+}
+
+#factImg {
+	margin-left: 20%;
+}

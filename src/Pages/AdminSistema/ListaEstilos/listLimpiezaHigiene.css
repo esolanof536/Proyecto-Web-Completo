@@ -1,0 +1,35 @@
+#bannerLimpieza {
+	background-color: rgba(120,0,40,1.00);
+	height: 902px;
+	text-align: center;
+	color: white;
+}
+
+#imgList {
+	height: 165px;
+	width: 165px;
+	margin-top: 10%;
+	margin-left: -10%;
+}
+
+#circle-background {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 35%;
+	background-color: white;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}
+
+#cantLimInput{
+	margin-left: 15%;
+}
+
+#resLimpContainer{
+	margin-left: 2%;
+}
+
+#resLimpInput{
+	margin-left: 10%;
+}

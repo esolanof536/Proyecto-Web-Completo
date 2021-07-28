@@ -1,0 +1,34 @@
+#bannerMesas {
+	background-color: rgba(120,0,40,1.00);
+	height: 905px;
+	text-align: center;
+	color: white;
+}
+
+#imgList {
+	height: 175px;
+	width: 175px;
+	margin-top: 2%;
+}
+
+#circle-background {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 35%;
+	background-color: white;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}
+
+#nomMesasInput {
+	margin-left: 10%;
+}
+
+#cantSillasMesasInput {
+	margin-left: 15%;
+}
+
+#resMesa {
+	margin-left: 15%;
+}

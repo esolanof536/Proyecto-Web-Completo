@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+
+#addUserContainer {
+	border-radius: 7px;
+  	border: solid;
+  	border-color: rgb(192, 0, 64); 
+  	margin-top: 3%;
+  	height: 775px;
+  	width: 50%;
+}
+
+#userIcon {
+	height: 250px;
+	width: 250px;
+	margin-left: 23%;
+	margin-top: 10%;
+}
+
+.textArea {
+	resize: none;
+}
+
+.fa-3x {
+	color: black;
+}
+

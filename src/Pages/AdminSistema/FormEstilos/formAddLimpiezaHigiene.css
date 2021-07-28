@@ -1,0 +1,23 @@
+#limHigContainer {
+	border-radius: 7px;
+  	border: solid;
+   	border-color: rgb(192, 0, 64); 
+  	margin-top: 1%;
+  	height: 870px;
+  	width: 45%;
+}
+
+#limHigImg {
+	height: 150px; 
+	width: 160px; 
+	margin-top: 95px; 
+	float: left;
+}
+
+#TextADescripcion {
+	resize: none;
+}
+
+#limHigInfo {
+	text-align: center;
+}

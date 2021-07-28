@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+#RolContainer {
+	border-radius: 7px;
+  	border: solid;
+  	border-color: rgb(192, 0, 64); 
+  	margin-top: 3%;
+  	height: 500px;
+  	width: 45%;
+}
+
+#rolSelect {
+	width: 205px; 
+	height: 30px;
+}
+
+#infoLabel {
+	text-align: center;
+}
+
+#puestoImg {
+	width: 200px; 
+	height: 200px; 
+	margin-top: 20%; 
+	
+}
+
+.textArea {
+	resize: none;
+}
+
+#destalleRol {
+    margin-left: -0%;
+}

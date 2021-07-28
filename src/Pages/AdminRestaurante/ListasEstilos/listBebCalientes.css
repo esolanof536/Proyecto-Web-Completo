@@ -1,0 +1,30 @@
+
+#bannerBebCal {
+	background-color: rgba(120,0,40,1.00);
+	height: 902px;
+	text-align: center;
+	color: white;
+}
+
+#imgCoffee {
+	height: 180px;
+	width: 180px;
+}
+
+#circle-background {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 35%;
+	background-color: white;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}
+
+#resBebCalSelect {
+	margin-left: 20%;
+}
+
+#nomBebCalInput{
+	margin-left: 10%;
+}

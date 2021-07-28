@@ -1,0 +1,21 @@
+
+#bannerCliMesa{
+	background-color: rgba(120,0,40,1.00);
+	height: 130vh;
+	text-align: center;
+	color: white;
+}
+
+#imgListCliMesa {
+	height: 200px;
+}
+
+#circle-background {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 35%;
+	background-color: white;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}

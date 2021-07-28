@@ -1,0 +1,35 @@
+
+#bannerEspeciales {
+	background-color: rgba(120,0,40,1.00);
+	height: 902px;
+	text-align: center;
+	color: white;
+}
+
+#imgList {
+	height: 160px;
+	width: 160px;
+	margin-top: 10%;
+}
+
+#circle-background {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 35%;
+	background-color: white;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}
+
+.textAreas {
+	resize: none;
+}
+
+#nomEspeInput{
+	margin-left: 10%;
+}
+
+#detalleEspeInput{
+	margin-left: 15%;
+}

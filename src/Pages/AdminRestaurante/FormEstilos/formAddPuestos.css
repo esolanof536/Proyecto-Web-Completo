@@ -1,0 +1,38 @@
+
+
+#puestoContainer {
+	border-radius: 7px;
+  	border: solid;
+  	border-color: rgb(192, 0, 64); 
+  	margin-top: 6%;
+  	height: 500px;
+  	width: 45%;
+}
+
+
+
+#internRadio {
+	margin-left: 3%;
+}
+
+#rolSelect {
+	width: 205px; 
+	height: 30px;
+}
+
+#infoLabel {
+	text-align: center;
+}
+
+#puestoImg {
+	width: 200px; 
+	height: 200px; 
+	margin-top: 20%; 
+	margin-left: 5%
+}
+
+
+
+.far, .fas {
+	color: black;
+}
