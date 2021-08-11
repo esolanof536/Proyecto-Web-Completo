@@ -50,59 +50,57 @@ export default function AgregarConsecutivos() {
         <>
             <form onSubmit={show} onChange={changeForm}>
                 <div className="container-fluid" id="conseContainer">
-                    <div className="col-sm m-2">
+                    <div className="col-sm m-2 text-center w-100">
                         <h1 id="infoEmp">Informacion de Consecutivos</h1>
                     </div>
-                    <div className="row h-100 mt-3">
-                        <div className="row m-2">
-                            <div className="col-sm empLabel">
+                    <div className="row m-3 w-100">
+                        <div className="row m-2 w-100">
+                            <div className="col-sm-3">
                                 <label for="tipoConse">Tipo de Consecutivo</label>
                             </div>
-                            <div className="col-lg">
+                            <div className="col-lg-6">
                                 <input type="text" id="tipoConse" className="form-control" value={inputs.tipo} name="tipo" />
                             </div>
                         </div>
-                        <div className="row m-2">
-                            <div className="col-sm empLabel">
+                        <div className="row m-2 w-100">
+                            <div className="col-sm-3">
                                 <label for="descConse">Descripción </label>
                             </div>
-                            <div className="col-lg">
+                            <div className="col-lg-6">
                                 <textarea value={inputs.descripcion} name="descripcion" id="descConse" cols="21" rows="3" className="form-control textArea" />
                             </div>
                         </div>
-                        <div className="row m-2">
-                            <div className="col-sm empLabel">
+                        <div className="row m-2 w-100">
+                            <div className="col-sm-3">
                                 <label for="valorConse">Valor Consecutivo</label>
                             </div>
-                            <div className="col-lg">
+                            <div className="col-lg-6">
                                 <input type="text" id="valorConse" className="form-control" value={inputs.valor} name="valor" />
                             </div>
                         </div>
-                        <div className="row m-2">
-                            <div className="col-sm empLabel">
+                        <div className="row m-2 w-100">
+                            <div className="col-sm-3">
                                 <label for="prefConse">Prefijo</label>
                             </div>
-                            <div className="col-lg">
+                            <div className="col-lg-6">
                                 <input type="text" id="prefConse" className="form-control" value={inputs.prefijo} name="prefijo" />
                             </div>
                         </div>
-                        <div className="row ml-4  justify-content-md-center">
-                            <div className="col-sm empLabel">
+                        <div className="row m-2 w-100">
+                            <div className="form-check w-25">
                                 <input type="checkbox" className="form-check-input" name="prefCheckConse" id="prefCheckConse" />
-                            </div>
-                            <div className="col-lg">
                                 <label id="prefLabel" for="prefCheckConse" className="form-check-label">Posee Prefijo</label>
                             </div>
                         </div>
-                        <div className="row justify-content-md-center ms-5 mt-5 w-50">
-                            <div className="col-4">
-                                <button value="Submit" type="submit" className="btn">Submit</button>
+                        <div className="row w-75 ml-2 mt-2">
+                            <div className="col-3 m-2">
+                                <button value="Submit" type="submit" className="btn btn-danger">Submit</button>
                             </div>
-                            <div className="col-4">
-                                <input type="button" value="Cancelar" name="btnCancelarConse" className="btn" />
+                            <div className="col-3 m-2">
+                                <input type="button" value="Cancelar" name="btnCancelarConse" className="btn btn-danger" />
                             </div>
-                            <div className="col-4">
-                                <input type="button" value="Limpiar" name="btnLimpiarConse" className="btn" />
+                            <div className="col-3 m-2">
+                                <input type="button" value="Limpiar" name="btnLimpiarConse" className="btn btn-danger" />
                             </div>
                         </div>
                     </div>

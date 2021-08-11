@@ -99,56 +99,54 @@ export default function AgregarPaises() {
             inputs.codigo = prefijo.prefijo + v;
 
         })();
-
-
     }
 
     return (
 
         <>
             <form onSubmit={show} onChange={changeForm}>
-                <div className="container-fluid" id="empContainer">
-                    <div className="col-sm m-2">
-                        <h1 id="infoEmp">Informacion de los Países</h1>
+                <div className="container-fluid p-0" id="empContainer">
+                    <div className="col-sm m-2 text-center w-100">
+                        <h1>Informacion de los Países</h1>
                     </div>
-                    <div className="row mt-3">
-                        <div className="row m-2">
-                            <div className="col-sm empLabel">
+                    <div className="row m-3 w-100">
+                        <div className="row m-2 w-100">
+                            <div className="col-sm-3">
                                 <label for="codPais">Código del Pais</label>
                             </div>
-                            <div className="col-lg">
+                            <div className="col-lg-6">
                                 <input type="text" disabled id="codPais" className="form-control" />
                             </div>
                         </div>
-                        <div className="row m-2">
-                            <div className="col-sm empLabel">
+                        <div className="row m-2 w-100">
+                            <div className="col-sm-3 ">
                                 <label for="nomPais">Nombre del Pais</label>
                             </div>
-                            <div className="col-lg">
+                            <div className="col-lg-6">
                                 <input type="text" id="nomPais" onClick={cod} className="form-control" value={inputs.nombre} name="nombre" />
                             </div>
                         </div>
-                        <div className="row m-2 h-25">
-                            <div className="col-sm empLabel">
+                        <div className="row m-2 w-100">
+                            <div className="col-sm-3">
                                 <label for="filePais">Bandera del Pais</label>
                             </div>
-                            <div className="col-sm">
+                            <div className="col-lg-6">
                                 <img src="" id="imgPais" />
-                                <label id="addImgPais" name="addImgPais" className="btn mt-2">
+                                <label id="addImgPais" name="addImgPais" className="btn btn-danger mt-2">
                                     <input type="file" onChange={fileSelectedHandler} name="fileFoto" id="filePais" />
-                                    Examinar
+                                    Agregar Foto
                                 </label>
                             </div>
                         </div>
-                        <div className="row justify-content-md-center ms-5 w-50 m-0">
-                            <div className="col-4">
-                                <button value="Submit" type="submit" className="btn">Submit</button>
+                        <div className="row ml-2 mt-3 w-75" >
+                            <div className="col-3 m-2">
+                                <button value="Submit" type="submit" className="btn btn-danger">Aceptar</button>
                             </div>
-                            <div className="col-4">
-                                <input type="button" value="Cancelar" name="btnCancelarPais" className="btn"/>
+                            <div className="col-3 m-2">
+                                <input type="button" value="Cancelar" name="btnCancelarPais" className="btn btn-danger"/>
                             </div>
-                            <div className="col-4">
-                                <input type="button" value="Limpiar" name="btnLimpiarPais" className="btn"/>
+                            <div className="col-3 m-2">
+                                <input type="button" value="Limpiar" name="btnLimpiarPais" className="btn btn-danger"/>
                             </div>
                         </div>
                     </div>

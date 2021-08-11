@@ -7,7 +7,6 @@ import { notification } from 'antd';
 export default function AgregarRoles() {
 
 
-
     const [inputs, setInputs] = useState({
 
         codigo: "",
@@ -56,7 +55,7 @@ export default function AgregarRoles() {
 
             notification["success"]({
                 message: "Licor agregado"
-                
+
             });
             window.location.href = window.location.href;
         }
@@ -85,69 +84,48 @@ export default function AgregarRoles() {
 
         <>
             <form onSubmit={show} onChange={changeForm}>
-                <div className="container" id="RolContainer">
-                    <br />
-                    <h1>Roles</h1>
-
-                    <div className="container">
-                        <div className="row">
-
-                            <div className="col-4">
-                                <img src="https://cdn.iconscout.com/icon/free/png-256/administrator-2166550-1836773.png" alt="Puesto" id="puestoImg" />
+                <div className="container-fluid p-0" id="RolContainer">
+                    <div className="col-sm m-2 text-center w-100">
+                        <h1 id="infoEmp">Informacion de los Roles</h1>
+                    </div>
+                    <div className="row w-100 m-3">
+                        <div className="row m-2 w-100">
+                            <div className="col-sm-3">
+                                <label for="codRol">Código</label>
                             </div>
-                            <div className="col-sm" >
-                                <h3 id="infoLabel">Información</h3><br />
-                                <div className="container">
-                                    <div className="row">
-                                        <div className="col-sm">
-                                            <div></div>
-                                            <h5>Código</h5>
-                                        </div>
-                                        <div className="col-sm">
-                                            <input type="text" id="codRol" disabled className="form-control" />
-                                        </div>
-                                    </div>
-                                    <br />
-
-                                    <div className="row">
-                                        <div className="col-sm">
-                                            <div></div>
-                                            <h5>Nombre</h5>
-                                        </div>
-                                        <div className="col-sm">
-                                            <input type="text" id="nomRol" onClick={cod} className="form-control" value={inputs.nombre} name="nombre" />
-                                        </div>
-
-                                    </div>
-                                    <br />
-                                    <div className="row">
-                                        <div className="col-sm">
-                                            <h5>Detalle</h5>
-                                        </div>
-                                        <div className="col-sm">
-                                            <textarea value={inputs.descripcion} name="descripcion" id="destalleRol" cols="21" rows="3" className="form-control textArea" />
-                                        </div>
-                                    </div>
-                                    <br />
-                                    <br />
-                                    <div className="row">
-                                        <div className="col-sm">
-                                            <button value="Submit" type="submit">Submit</button>
-                                        </div>
-                                        <div className="col-sm">
-                                            <input type="button" value="Cancelar" name="btnCancelarRol" />
-                                        </div>
-                                        <div className="col-sm">
-                                            <input type="button" value="Limpiar" name="btnLimpiarRol" />
-                                        </div>
-                                    </div>
-                                </div>
+                            <div className="col-lg-6">
+                                <input type="text" id="codRol" disabled className="form-control" />
                             </div>
-
+                        </div>
+                        <div className="row m-2 w-100">
+                            <div className="col-sm-3">
+                                <label for="nomRol">Nombre</label>
+                            </div>
+                            <div className="col-lg-6">
+                                <input type="text" id="nomRol" onClick={cod} className="form-control" value={inputs.nombre} name="nombre" />
+                            </div>
+                        </div>
+                        <div className="row m-2 w-100">
+                            <div className="col-sm-3">
+                                <label for="nomRol">Detalle</label>
+                            </div>
+                            <div className="col-lg-6">
+                                <textarea value={inputs.descripcion} name="descripcion" id="destalleRol" cols="21" rows="3" className="form-control textArea" />
+                            </div>
+                        </div>
+                        <div className="row ml-2 mt-5 w-75">
+                            <div className="col-sm-3 m-2">
+                                <button value="Submit" type="submit" className="btn btn-danger">Submit</button>
+                            </div>
+                            <div className="col-sm-3 m-2">
+                                <input type="button" value="Cancelar" name="btnCancelarRol" className="btn btn-danger" />
+                            </div>
+                            <div className="col-sm-3 m-2">
+                                <input type="button" value="Limpiar" name="btnLimpiarRol" className="btn btn-danger" />
+                            </div>
                         </div>
                     </div>
                 </div>
-
             </form>
         </>
 
