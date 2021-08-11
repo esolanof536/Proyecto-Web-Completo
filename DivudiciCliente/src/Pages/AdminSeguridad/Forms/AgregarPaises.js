@@ -5,15 +5,12 @@ import { getConsecuApi, agregarConsecuApi } from "../../../Api/Seguridad/cosnecu
 import { notification } from 'antd';
 export default function AgregarPaises() {
 
-
     const [inputs, setInputs] = useState({
 
         codigo: "",
         nombre: "",
         foto: ""
     });
-
-
 
     const changeForm = e => {
 
@@ -76,7 +73,7 @@ export default function AgregarPaises() {
 
             notification["success"]({
                 message: "Licor agregado"
-                
+
             });
             window.location.href = window.location.href;
         }
@@ -110,79 +107,53 @@ export default function AgregarPaises() {
 
         <>
             <form onSubmit={show} onChange={changeForm}>
-                <div className="container" id="empContainer">
-                    <br />
-                    <h1>Países</h1>
-
-                    <div className="container">
-                        <h3 id="infoEmp">Información</h3><br />
-                        <div className="row">
-
-                            <div className="col-4">
-                                <img src="https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678111-map-marker-512.png" alt="Empleado" id="empLogo" />
+                <div className="container-fluid" id="empContainer">
+                    <div className="col-sm m-2">
+                        <h1 id="infoEmp">Informacion de los Países</h1>
+                    </div>
+                    <div className="row mt-3">
+                        <div className="row m-2">
+                            <div className="col-sm empLabel">
+                                <label for="codPais">Código del Pais</label>
                             </div>
-                            <div className="col-sm" >
-
-                                <div className="container">
-                                    <div className="row">
-                                        <div className="col-sm empLabel">
-                                            <h5>Código</h5>
-                                        </div>
-                                        <div className="col-sm">
-                                            <input type="text" disabled id="codPais" className="form-control" />
-                                        </div>
-                                    </div>
-                                    <br />
-
-                                    <div className="row">
-                                        <div className="col-sm empLabel">
-                                            <div></div>
-                                            <h5>Nombre</h5>
-                                        </div>
-                                        <div className="col-sm">
-                                            <input type="text" id="nomPais" onClick={cod} className="form-control" value={inputs.nombre} name="nombre" />
-                                        </div>
-
-                                    </div>
-
-                                    <br />
-                                    <div className="row">
-                                        <div className="col-sm">
-                                            <h5>Imagen</h5>
-                                        </div>
-                                        <div className="col-sm">
-                                            <img src="" id="imgPais" />
-                                            <br />
-                                            <br />
-                                            <label id="addImgPais" name="addImgPais" className="btn">
-                                                <input type="file" onChange={fileSelectedHandler} name="fileFoto" id="filePais" />
-                                            Examinar
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <br />
-                                    <br />
-                                    <br />
-                                    <div className="row">
-                                        <div className="col-sm">
-                                            <button value="Submit" type="submit">Submit</button>
-                                        </div>
-                                        <div className="col-sm">
-                                            <input type="button" value="Cancelar" name="btnCancelarPais" />
-                                        </div>
-                                        <div className="col-sm">
-                                            <input type="button" value="Limpiar" name="btnLimpiarPais" />
-                                        </div>
-                                    </div>
-                                </div>
+                            <div className="col-lg">
+                                <input type="text" disabled id="codPais" className="form-control" />
+                            </div>
+                        </div>
+                        <div className="row m-2">
+                            <div className="col-sm empLabel">
+                                <label for="nomPais">Nombre del Pais</label>
+                            </div>
+                            <div className="col-lg">
+                                <input type="text" id="nomPais" onClick={cod} className="form-control" value={inputs.nombre} name="nombre" />
+                            </div>
+                        </div>
+                        <div className="row m-2 h-25">
+                            <div className="col-sm empLabel">
+                                <label for="filePais">Bandera del Pais</label>
+                            </div>
+                            <div className="col-sm">
+                                <img src="" id="imgPais" />
+                                <label id="addImgPais" name="addImgPais" className="btn mt-2">
+                                    <input type="file" onChange={fileSelectedHandler} name="fileFoto" id="filePais" />
+                                    Examinar
+                                </label>
+                            </div>
+                        </div>
+                        <div className="row justify-content-md-center ms-5 w-50 m-0">
+                            <div className="col-4">
+                                <button value="Submit" type="submit" className="btn">Submit</button>
+                            </div>
+                            <div className="col-4">
+                                <input type="button" value="Cancelar" name="btnCancelarPais" className="btn"/>
+                            </div>
+                            <div className="col-4">
+                                <input type="button" value="Limpiar" name="btnLimpiarPais" className="btn"/>
                             </div>
                         </div>
                     </div>
                 </div>
             </form>
-
         </>
-
     )
-
 }

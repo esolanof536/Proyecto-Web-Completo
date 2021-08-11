@@ -41,115 +41,74 @@ export default function AgregarConsecutivos() {
             });
             window.location.href = window.location.href;
         }
-        
-        
+
+
     }
 
 
     return (
-
-
         <>
             <form onSubmit={show} onChange={changeForm}>
-                <div className="container" id="conseContainer">
-                    <br />
-                    <h1>Consecutivos</h1>
-
-                    <div className="container">
-                        <h3 id="infoEmp">Información</h3><br />
-                        <div className="row">
-
-                            <div className="col-3">
-                                <img src="https://www.tuescuelaesonline.com/wp-content/themes/tuescuelaonline-remake/assets/images/logo.png" id="empLogo" />
+                <div className="container-fluid" id="conseContainer">
+                    <div className="col-sm m-2">
+                        <h1 id="infoEmp">Informacion de Consecutivos</h1>
+                    </div>
+                    <div className="row h-100 mt-3">
+                        <div className="row m-2">
+                            <div className="col-sm empLabel">
+                                <label for="tipoConse">Tipo de Consecutivo</label>
                             </div>
-                            <div className="col-sm" >
-
-                                <div className="container">
-                                    <div className="row">
-                                        <div className="col-sm empLabel">
-                                            <h5>Tipo</h5>
-                                        </div>
-                                        <div className="col-sm">
-                                            <input type="text" id="tipoConse" className="form-control" value={inputs.tipo} name="tipo" />
-                                        </div>
-                                    </div>
-                                    <br />
-
-                                    <div className="row">
-                                        <div className="col-sm empLabel">
-                                            <div></div>
-                                            <h5>Descripción</h5>
-                                        </div>
-                                        <div className="col-sm">
-                                            <textarea value={inputs.descripcion} name="descripcion" id="descConse" cols="21" rows="3" className="form-control textArea" />
-                                        </div>
-
-                                    </div>
-                                    <br />
-
-                                    <div className="row">
-                                        <div className="col-sm empLabel">
-                                            <h5>Valor</h5>
-                                        </div>
-                                        <div className="col-sm">
-                                            <input type="text" id="valorConse" className="form-control" value={inputs.valor} name="valor" />
-                                        </div>
-                                    </div>
-                                    <br />
-
-                                    <div className="row">
-                                        <div className="col-sm">
-                                            <h5>Prefijo</h5>
-                                        </div>
-                                        <div className="col-sm">
-                                            <input type="text" id="prefConse" className="form-control" value={inputs.prefijo} name="prefijo" />
-                                        </div>
-                                    </div>
-                                    <br />
-                                </div>
+                            <div className="col-lg">
+                                <input type="text" id="tipoConse" className="form-control" value={inputs.tipo} name="tipo" />
                             </div>
-                            <div className="col-sm">
-                                <div className="container">
-
-
-                                    <div className="row">
-                                        <div className="col-sm">
-                                            <input type="checkbox" name="prefCheckConse" />
-                                        </div>
-                                        <div className="col-sm">
-                                            <h5 id="prefLabel">Posee Prefijo</h5>
-                                        </div>
-                                    </div>
-                                    <br />
-                                    <br />
-                                    <br />
-                                    <br />
-                                    <br />
-                                    <br />
-                                    <br />
-                                    <br />
-                                    <br />
-                                    <div className="row">
-                                        <div className="col-4">
-                                            <button value="Submit" type="submit">Submit</button>
-                                        </div>
-                                        <div className="col-4">
-                                            <input type="button" value="Cancelar" name="btnCancelarConse" />
-                                        </div>
-                                        <div className="col-4">
-                                            <input type="button" value="Limpiar" name="btnLimpiarConse" />
-                                        </div>
-                                    </div>
-                                </div>
-
+                        </div>
+                        <div className="row m-2">
+                            <div className="col-sm empLabel">
+                                <label for="descConse">Descripción </label>
                             </div>
-
+                            <div className="col-lg">
+                                <textarea value={inputs.descripcion} name="descripcion" id="descConse" cols="21" rows="3" className="form-control textArea" />
+                            </div>
+                        </div>
+                        <div className="row m-2">
+                            <div className="col-sm empLabel">
+                                <label for="valorConse">Valor Consecutivo</label>
+                            </div>
+                            <div className="col-lg">
+                                <input type="text" id="valorConse" className="form-control" value={inputs.valor} name="valor" />
+                            </div>
+                        </div>
+                        <div className="row m-2">
+                            <div className="col-sm empLabel">
+                                <label for="prefConse">Prefijo</label>
+                            </div>
+                            <div className="col-lg">
+                                <input type="text" id="prefConse" className="form-control" value={inputs.prefijo} name="prefijo" />
+                            </div>
+                        </div>
+                        <div className="row ml-4  justify-content-md-center">
+                            <div className="col-sm empLabel">
+                                <input type="checkbox" className="form-check-input" name="prefCheckConse" id="prefCheckConse" />
+                            </div>
+                            <div className="col-lg">
+                                <label id="prefLabel" for="prefCheckConse" className="form-check-label">Posee Prefijo</label>
+                            </div>
+                        </div>
+                        <div className="row justify-content-md-center ms-5 mt-5 w-50">
+                            <div className="col-4">
+                                <button value="Submit" type="submit" className="btn">Submit</button>
+                            </div>
+                            <div className="col-4">
+                                <input type="button" value="Cancelar" name="btnCancelarConse" className="btn" />
+                            </div>
+                            <div className="col-4">
+                                <input type="button" value="Limpiar" name="btnLimpiarConse" className="btn" />
+                            </div>
                         </div>
                     </div>
                 </div>
             </form>
         </>
-
     )
 
 }
