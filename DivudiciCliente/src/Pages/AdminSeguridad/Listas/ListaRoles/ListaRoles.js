@@ -20,32 +20,19 @@ export default function ListaRoles() {
     return (
 
         <>
+            <div className="row ml-3 my-2 pr-3">
+                <h1>Lista de Roles</h1>
+            </div>
             <div className="row">
-                <div className="col-2">
-                    <div className="row">
-                        <div className="col-1"></div>
-                        <div className="col-sm" id="bannerRoles">
-                            <br />
-                            <br />
-                            <h2 className="listLabel">Lista de Roles</h2>
-                            <div className="row">
-                                <div id="circle-background">
-                                    <img src="https://www.venturetechsolutions.com/wp-content/uploads/2016/03/lg-icon-it-infrastructure-db-admin.png" alt="" id="imgRol" />
-                                </div>
-                            </div>
-                        </div>
+                <div className="col-sm pb-0 mb-0">
+                    <div className="row-row-cols-lg-6 m-3">
+                        <ListRoles roles={roles} setReloadRol={setReloadRol} />
                     </div>
                 </div>
-                <div className="col-sm">
-
-                    <div className="row-row-cols-lg-6">
-                    <ListRoles roles={roles} setReloadRol={setReloadRol} />
-                    </div>
-                    <div className="row">
-                        <div className="col-sm d-flex justify-content-center">
-                            <Link to='/adminSeguridad/addRol' className='routing'><button class="btn btn-secondary ">Agregar Roles</button></Link>
-                        </div>
-                    </div>
+            </div>
+            <div className="row">
+                <div className="col-sm d-flex justify-content-center m-3">
+                    <Link to='/adminSeguridad/addRol' className='routing'><button class="btn btn-danger btn-lg">Agregar Roles</button></Link>
                 </div>
             </div>
 

@@ -20,32 +20,21 @@ export default function ListaPaises() {
     return (
 
         <>
+            <div className="row ml-3 my-2 p-3">
+                <h1>Lista de Paises</h1>
+            </div>
             <div className="row">
-                <div className="col-2">
-                    <div className="row">
-                        <div className="col-1"></div>
-                        <div className="col-sm" id="bannerPais">
-                            <br />
-                            <br />
-                            <h2 className="listLabel">Lista de Países</h2>
-                            <div className="row">
-                                <div id="circle-background">
-                                    <img src="https://images.vexels.com/media/users/3/157970/isolated/preview/c156b4270aea292b9b335dd463ea17eb-earth-planet-icon-earth-icon-by-vexels.png" alt="" id="imgListPaises" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-sm">
+                <div className="col-sm pb-0 mb-0">
 
-                    <div className="row-row-cols-lg-6">
-                    <ListPaises paises={paises} setReloadPais={setReloadPais} />
+                    <div className="row-row-cols-lg-6 m-3">
+                        <ListPaises paises={paises} setReloadPais={setReloadPais} />
                     </div>
-                    <div className="row">
-                        <div className="col-sm d-flex justify-content-center">
-                            <Link to='/adminSeguridad/addPais' className='routing'><button class="btn btn-secondary ">Agregar Paises</button></Link>
-                        </div>
-                    </div>
+
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-sm d-flex justify-content-center m-3">
+                    <Link to='/adminSeguridad/addPais' className='routing'><button class="btn btn-danger btn-lg">Agregar Paises</button></Link>
                 </div>
             </div>
 

@@ -22,32 +22,19 @@ export default function ListaUnidadesMedida() {
 
         <>
 
+            <div className="row ml-3 my-2 p-3">
+                <h1>Lista de Usuarios</h1>
+            </div>
             <div className="row">
-                <div className="col-2">
-                    <div className="row">
-                        <div className="col-1"></div>
-                        <div className="col-sm" id="bannerUM">
-                            <br />
-                            <br />
-                            <h2 className="listLabel">Lista de Equipos y Utensilios</h2>
-                            <div className="row">
-                                <div id="circle-background">
-                                    <img src="https://cdn.iconscout.com/icon/free/png-256/balance-353-1162439.png" alt="" id="imgList" />
-                                </div>
-                            </div>
-                        </div>
+                <div className="col-sm pb-0 mb-0">
+                    <div className="row-row-cols-xl-6 m-3">
+                        <ListUM unidadesMedida={unidades} setReloadUM={setReloadUM} />
                     </div>
                 </div>
-                <div className="col-sm">
-
-                    <div className="row-row-cols-xl-6">
-                    <ListUM unidadesMedida={unidades} setReloadUM={setReloadUM} />
-                    </div>
-                    <div className="row">
-                        <div className="col-sm d-flex justify-content-center">
-                            <Link to='/adminSeguridad/addUnidadMedida' className='routing'><button class="btn btn-secondary ">Agregar Unidades de Medida</button></Link>
-                        </div>
-                    </div>
+            </div>
+            <div className="row">
+                <div className="col-sm d-flex justify-content-center m-3">
+                    <Link to='/adminSeguridad/addUnidadMedida' className='routing'><button class="btn btn-danger btn-lg">Agregar Unidades de Medida</button></Link>
                 </div>
             </div>
 

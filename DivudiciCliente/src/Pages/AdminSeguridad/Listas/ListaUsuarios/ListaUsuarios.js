@@ -20,35 +20,21 @@ export default function ListaUsuarios() {
     return (
 
         <>
+            <div className="row ml-3 my-2 p-3">
+                    <h1>Lista de Usuarios</h1>
+            </div>
             <div className="row">
-                <div className="col-2">
-                    <div className="row">
-                        <div className="col-1"></div>
-                        <div className="col-sm" id="bannerUsuarios">
-                            <br />
-                            <br />
-                            <h2 className="listLabel">Lista de Usuarios</h2>
-                            <div className="row">
-                                <div id="circle-background">
-                                    <img src="https://cdn.iconscout.com/icon/free/png-256/user-1648810-1401302.png	" alt="" id="imgList" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-sm">
-
-                    <div className="row-row-cols-xl-6">
-                    <ListUsers usersActive={users} setReloadUsers={setReloadUser} />
-                    </div>
-                    <div className="row">
-                        <div className="col-sm d-flex justify-content-center">
-                            <Link to='/adminSeguridad/addUsuario' className='routing'><button class="btn btn-secondary ">Agregar Usuarios</button></Link>
-                        </div>
+                <div className="col-sm pb-0 mb-0">
+                    <div className="row-row-cols-lg-6 m-3">
+                        <ListUsers usersActive={users} setReloadUsers={setReloadUser} />
                     </div>
                 </div>
             </div>
-
+            <div className="row">
+                <div className="col-sm d-flex justify-content-center m-3">
+                    <Link to='/adminSeguridad/addUsuario' className='routing'><button class="btn btn-danger btn-lg">Agregar Usuarios</button></Link>
+                </div>
+            </div>
         </>
 
     )

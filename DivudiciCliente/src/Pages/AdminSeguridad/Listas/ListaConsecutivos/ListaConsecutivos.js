@@ -21,35 +21,19 @@ export default function ListaConsecutivos() {
     return (
 
         <>
-
+            <div className="row m-3 my-2 p-3">
+                <h1>Lista de Consecutivos</h1>
+            </div>
             <div className="row">
-                <div className="col-2">
-                    <div className="row">
-                        <div className="col-1"></div>
-                        <div className="col-sm" id="bannerConse">
-                            <br />
-                            <br />
-                            <h2 className="listLabel">Lista de Consecutivos</h2>
-                            <div className="row">
-                                <div id="circle-background">
-                                    <img src="https://cdn2.iconfinder.com/data/icons/flat-icons-19/512/Settings.png" alt="" id="imgConseList" />
-                                </div>
-
-                            </div>
-                        </div>
-
+                <div className="col-sm pb-0 mb-0">
+                    <div className="row-row-cols-lg-6 m-3">
+                        <ListConsecutivos conse={conse} setReloadConse={setReloadConse} />
                     </div>
                 </div>
-                <div className="col-sm">
-
-                    <div className="row-row-cols-lg-6">
-                    <ListConsecutivos conse={conse} setReloadConse={setReloadConse} />
-                    </div>
-                    <div className="row">
-                        <div className="col-sm d-flex justify-content-center">
-                            <Link to='/adminSeguridad/addConsecutivo' className='routing'><button className="btn btn-secondary ">Agregar Consecutivos</button></Link>
-                        </div>
-                    </div>
+            </div>
+            <div className="row">
+                <div className="col-sm d-flex justify-content-center m-3">
+                    <Link to='/adminSeguridad/addConsecutivo' className='routing'><button className="btn btn-danger btn-lg">Agregar Consecutivos</button></Link>
                 </div>
             </div>
 

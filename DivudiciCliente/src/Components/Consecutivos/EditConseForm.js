@@ -91,7 +91,7 @@ function EditForm(props) {
 
 
             <Form.Item>
-                <Button type="primary" htmlType="submit" className="btn-submit" onClick={updateConse}>
+                <Button type="primary" htmlType="submit" className="btn-submit btn-danger" onClick={updateConse}>
                     Actualizar Consecutivo
                 </Button>
             </Form.Item>
